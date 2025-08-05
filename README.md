@@ -1,4 +1,4 @@
-# portifolio
+# portfolio
 # Portfólio Ângelo Fávero
 
 Este repositório contém o código fonte do meu site **portfólio pessoal**. Ele foi construído com **HTML**, **CSS** e um pouco de **JavaScript** para animar a experiência. O objetivo é apresentar meu perfil profissional, os projetos que desenvolvi, minha formação acadêmica e fornecer formas rápidas de contato.
