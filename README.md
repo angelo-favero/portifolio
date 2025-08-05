@@ -21,4 +21,29 @@ Este repositório contém o código fonte do meu site **portfólio pessoal**. El
 
 ## 🗂️ Estrutura do projeto
 
+├── index.html # Página principal do portfólio
+├── style.css # Estilos aplicados ao layout
+├── img/ # Imagens e ícones utilizados no site
+├── fonts/ # Fontes customizadas (familia Intro)
+├── digitacao.js # Script responsável pelo efeito de digitação (Typed.js)
+├── navbar-mobile.js # Lógica do menu para dispositivos móveis
+├── scrol.js # Aplica animações durante a rolagem
+└── backToTop.js # Controla o botão “voltar ao topo”
 
+---
+
+## 💻 Executando localmente
+
+### 1. Clone este repositório:
+
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+### 1. Clone este repositório:
+bash
+Copiar
+Editar
+cd nome-do-repositorio
+
+### 3. Abra o arquivo index.html no navegador:
+Você pode apenas dar dois cliques no arquivo index.html 
