@@ -38,11 +38,9 @@ Este repositório contém o código fonte do meu site **portfólio pessoal**. El
 
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
 
-### 1. Clone este repositório:
-bash
-Copiar
-Editar
+### 2. Acesse o diretório do projeto:
 cd nome-do-repositorio
 
 ### 3. Abra o arquivo index.html no navegador:
