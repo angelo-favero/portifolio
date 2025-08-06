@@ -719,14 +719,14 @@ footer {
   }
 
   .conteudo-experiencia h2 {
-    font-size: 22pt;
+    font-size: 20pt;
     padding-left: 10px;
   }
 
   .conteudo-experiencia p {
     padding: 20px 10px 0 0;
     font-family: "intro", sans-serif;
-    font-size: 18pt;
+    font-size: 14pt;
     padding-left: 12px;
   }
 }
@@ -750,12 +750,18 @@ footer {
   }
   .conteudo-formacao p {
     padding-top: 20px;
-    font-size: 18pt;
+    font-size: 14pt;
     font-weight: 400;
     padding-left: 15px;
   }
   .conteudo-formacao-3 {
     padding-left: 22px;
+  }
+  #portugues {
+    font-size: 12pt;
+  }
+  #ingles {
+    font-size: 12pt;
   }
 }
 /* footer */
