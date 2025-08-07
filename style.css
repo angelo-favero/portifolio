@@ -797,11 +797,11 @@ footer {
 @media (max-width: 480px) {
   #portugues {
     font-size: 1.3376rem;
-    padding-right: 10px;
+    padding-right: 50px;
   }
   #ingles {
     font-size: 1.3376rem;
-    padding-right: 10px;
+    padding-right: 50px;
   }
   .conteudo-experiencia p {
     padding-right: 50px;
