@@ -498,7 +498,7 @@ footer {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: calc(100% - 26rem); /* Posiciona na parte inferior da viewport */
+  top: calc(100% - 31rem); /* Posiciona na parte inferior da viewport */
   left: calc(50% - 37rem);
   background-image: url("./img/deco.svg");
   background-size: contain;
