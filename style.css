@@ -8,6 +8,7 @@ body {
   --cor-logo: #1e1e1e;
   --cor-subtitulo: #d2d2d2;
   --cor-meio-tranparente: #a3a3a362;
+  --azul-site: #00c2c2;
 }
 @font-face {
   font-family: "intro";
@@ -177,7 +178,7 @@ body {
 }
 
 .apresentacao h1 {
-  font-size: 56pt;
+  font-size: 4.6816rem;
   font-family: "intro", sans-serif;
   font-weight: 900;
   padding-top: 10px;
@@ -235,7 +236,7 @@ body {
 }
 
 .titulo-experiencia h2 {
-  font-size: 110pt;
+  font-size: 9.196rem;
   font-family: "intro", sans-serif;
   font-weight: 900;
   color: #1e1e1e;
@@ -264,7 +265,7 @@ body {
 }
 
 .conteudo-experiencia h2 {
-  font-size: 32pt;
+  font-size: 2.6752rem;
   font-family: "intro", sans-serif;
   font-weight: 900;
   padding-left: 10px;
@@ -274,7 +275,7 @@ body {
 .conteudo-experiencia p {
   padding: 20px 0 0 0;
   font-family: "intro", sans-serif;
-  font-size: 20pt;
+  font-size: 1.672rem;
   padding-left: 12px;
 }
 
@@ -360,7 +361,7 @@ body {
 }
 
 .titulo-formacao h2 {
-  font-size: 110pt;
+  font-size: 9.196rem;
   font-family: "intro", sans-serif;
   font-weight: 900;
   color: black;
@@ -387,7 +388,7 @@ body {
   padding: 20px 0 0 0;
   font-family: "intro", sans-serif;
   font-weight: 600;
-  font-size: 18pt;
+  font-size: 1.5048rem;
   padding-left: 22px;
   margin-top: 2px;
   color: white;
@@ -396,7 +397,7 @@ body {
 #escolaridade1 {
   color: var(--cor-meio-tranparente);
   font-family: "intro", sans-serif;
-  font-size: 10pt;
+  font-size: 0.836rem;
   font-weight: 400;
   text-transform: uppercase;
   padding: 26px 0 0 20px;
@@ -405,7 +406,7 @@ body {
 #curso {
   color: white;
   font-family: "intro", sans-serif;
-  font-size: 14pt;
+  font-size: 1.1704rem;
   font-weight: 400;
   padding: 16px 0 0 20px;
 }
@@ -413,7 +414,7 @@ body {
 #escolaridade2 {
   color: var(--cor-meio-tranparente);
   font-family: "intro", sans-serif;
-  font-size: 12pt;
+  font-size: 1.0032rem;
   font-weight: 400;
   padding: 10px 0 0 20px;
   margin-top: 40px;
@@ -452,7 +453,7 @@ body {
 #idiomas {
   color: var(--cor-meio-tranparente);
   font-family: "intro", sans-serif;
-  font-size: 14pt;
+  font-size: 1.1704rem;
   font-weight: 800;
   text-transform: uppercase;
   padding: 2px 0 10px 0;
@@ -461,14 +462,14 @@ body {
 
 #portugues {
   font-family: "intro", sans-serif;
-  font-size: 18pt;
+  font-size: 1.5048rem;
   color: white;
   padding-bottom: 20px;
 }
 
 #ingles {
   font-family: "intro", sans-serif;
-  font-size: 18pt;
+  font-size: 1.5048rem;
   color: white;
   padding-bottom: 20px;
 }
@@ -519,7 +520,7 @@ footer {
 .footer p {
   color: white;
   font-family: "intro", sans-serif;
-  font-size: 18pt;
+  font-size: 1.5048rem;
 }
 
 .contato {
@@ -546,7 +547,7 @@ footer {
 
 .contato a {
   font-family: "intro", sans-serif;
-  font-size: 18pt;
+  font-size: 1.5048rem;
   color: white;
   margin: 0;
 }
@@ -555,7 +556,7 @@ footer {
   color: #d2d2d270;
   font-family: "roboto", sans-serif;
   font-weight: 600;
-  font-size: 12pt;
+  font-size: 1.0032rem;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -586,12 +587,12 @@ footer {
 }
 
 .back-to-top:hover {
-  background-color: #c9273a;
+  background-color: var(--azul-site);
   transform: translateY(-3px);
 }
 
 .back-to-top i {
-  font-size: 20px; /* Ajuste o tamanho do ícone */
+  font-size: 1.672rem; /* Ajuste o tamanho do ícone */
 }
 
 .whatsapp-button {
@@ -627,7 +628,7 @@ footer {
 }
 
 .whatsapp-button i {
-  font-size: 28px;
+  font-size: 2.3408rem;
 }
 
 /* menu-mobile */
@@ -692,7 +693,7 @@ footer {
   }
 
   .titulo-principal h1 {
-    font-size: 32pt;
+    font-size: 2.6752rem;
     padding: 0 20px 0 30px;
   }
 
@@ -709,7 +710,7 @@ footer {
     grid-template-columns: 1fr;
   }
   .titulo-experiencia h2 {
-    font-size: 30pt;
+    font-size: 2.508rem;
     padding-left: 40px;
     max-width: 600px;
   }
@@ -719,14 +720,14 @@ footer {
   }
 
   .conteudo-experiencia h2 {
-    font-size: 20pt;
+    font-size: 1.8392rem;
     padding-left: 10px;
   }
 
   .conteudo-experiencia p {
     padding: 20px 10px 0 0;
     font-family: "intro", sans-serif;
-    font-size: 14pt;
+    font-size: 1.5048rem;
     padding-left: 12px;
   }
 }
@@ -740,7 +741,7 @@ footer {
     grid-column: 1;
   }
   .titulo-formacao h2 {
-    font-size: 32pt;
+    font-size: 2.6752rem;
     padding-left: 24px;
     max-width: 600px;
     opacity: 1;
@@ -750,20 +751,15 @@ footer {
   }
   .conteudo-formacao p {
     padding-top: 20px;
-    font-size: 14pt;
+    font-size: 1.8392rem;
     font-weight: 400;
     padding-left: 15px;
   }
   .conteudo-formacao-3 {
     padding-left: 22px;
   }
-  #portugues {
-    font-size: 12pt;
-  }
-  #ingles {
-    font-size: 12pt;
-  }
 }
+
 /* footer */
 @media (max-width: 990px) {
   .footer {
@@ -773,7 +769,7 @@ footer {
     gap: 30px;
   }
   .footer p {
-    font-size: 16pt;
+    font-size: 1.3376rem;
     max-width: 100%;
   }
   .sobre {
@@ -783,7 +779,7 @@ footer {
     padding: 40px;
   }
   .contato a {
-    font-size: 16pt; /* Reduz o tamanho da fonte */
+    font-size: 1.3376rem; /* Reduz o tamanho da fonte */
   }
   .footer-back::before {
     width: 60px; /* Reduz o tamanho do elemento decorativo */
@@ -792,6 +788,24 @@ footer {
     top: -30px; /* Ajusta a posição vertical */
   }
   .copyright {
-    font-size: 10pt; /* Reduz o tamanho da fonte */
+    font-size: 0.836rem; /* Reduz o tamanho da fonte */
+  }
+}
+
+@media (max-width: 480px) {
+  .conteudo-experiencia h2 {
+    font-size: 1.672rem;
+  }
+  .conteudo-experiencia h2 {
+    font-size: 1.1704rem;
+  }
+  .conteudo-formacao p {
+    font-size: 1.5884rem;
+  }
+  #portugues {
+    font-size: 1.1704rem;
+  }
+  #ingles {
+    font-size: 1.704rem;
   }
 }
