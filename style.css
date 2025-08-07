@@ -388,7 +388,7 @@ body {
   padding: 20px 0 0 0;
   font-family: "intro", sans-serif;
   font-weight: 600;
-  font-size: 1.5048rem;
+  font-size: 1.8392rem;
   padding-left: 22px;
   margin-top: 2px;
   color: white;
@@ -727,7 +727,7 @@ footer {
   .conteudo-experiencia p {
     padding: 20px 10px 0 0;
     font-family: "intro", sans-serif;
-    font-size: 1.5048rem;
+    font-size: 1.3376rem;
     padding-left: 12px;
   }
 }
@@ -751,7 +751,7 @@ footer {
   }
   .conteudo-formacao p {
     padding-top: 20px;
-    font-size: 1.8392rem;
+    font-size: 1.5048rem;
     font-weight: 400;
     padding-left: 15px;
   }
@@ -794,9 +794,11 @@ footer {
 
 @media (max-width: 480px) {
   #portugues {
+    font-size: 1.3376rem;
     padding-right: 10px;
   }
   #ingles {
+    font-size: 1.3376rem;
     padding-right: 10px;
   }
 }
