@@ -567,7 +567,7 @@ footer {
   right: 30px;
   width: 50px;
   height: 50px;
-  background-color: #c41a2f;
+  background-color: var(--azul-site);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -793,19 +793,10 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .conteudo-experiencia h2 {
-    font-size: 1.672rem;
-  }
-  .conteudo-experiencia h2 {
-    font-size: 1.1704rem;
-  }
-  .conteudo-formacao p {
-    font-size: 1.5884rem;
-  }
   #portugues {
-    font-size: 1.1704rem;
+    padding-right: 10px;
   }
   #ingles {
-    font-size: 1.704rem;
+    padding-right: 10px;
   }
 }
