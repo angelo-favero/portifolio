@@ -729,7 +729,7 @@ footer {
     font-family: "intro", sans-serif;
     font-size: 1.3376rem;
     padding-left: 12px;
-    padding-right: 100px;
+    padding-right: 20px;
   }
 }
 
@@ -802,5 +802,8 @@ footer {
   #ingles {
     font-size: 1.3376rem;
     padding-right: 10px;
+  }
+  .conteudo-experiencia p {
+    padding-right: 100px;
   }
 }
