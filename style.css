@@ -64,28 +64,33 @@ body {
 /* Animações de entrada */
 
 [data-animate] {
+  opacity: 1; /* Alterado de 0 para 1 para garantir visibilidade mesmo sem JS */
+}
+
+/* Quando JavaScript estiver ativo, aplicamos as regras de animação */
+.js [data-animate] {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 1s ease, transform 2s ease;
-  will-change: opacity, transform; /* Melhora o desempenho da animação */
+  will-change: opacity, transform;
 }
 
-[data-animate].active {
+.js [data-animate].active {
   opacity: 1;
   transform: translateY(0);
 }
 
 /* Variações para diferentes direções */
-[data-animate="left"] {
+.js [data-animate="left"] {
   transform: translateX(-30px);
 }
 
-[data-animate="right"] {
+.js [data-animate="right"] {
   transform: translateX(30px);
 }
 
-[data-animate="left"].active,
-[data-animate="right"].active {
+.js [data-animate="left"].active,
+.js [data-animate="right"].active {
   transform: translateX(0);
 }
 
@@ -192,24 +197,33 @@ body {
 }
 
 .foto-perfil {
+  transform: none; /* Removida a transformação inicial */
+  opacity: 1; /* Garante visibilidade mesmo sem JS */
+}
+
+.js .foto-perfil {
   transform: translateX(-100px);
   opacity: 0;
   transition: all 1s ease;
 }
 
-.foto-perfil.active {
+.js .foto-perfil.active {
   transform: translateX(0px);
   opacity: 1;
 }
 
 .titulo-principal {
   position: relative;
+  opacity: 1; /* Garante visibilidade mesmo sem JS */
+}
+
+.js .titulo-principal {
   opacity: 0;
   transform: translateX(100px);
   transition: all 1s ease;
 }
 
-.titulo-principal.active {
+.js .titulo-principal.active {
   opacity: 1;
   transform: translateX(0);
 }
@@ -226,6 +240,16 @@ body {
   position: absolute;
   left: -30px;
   z-index: -1;
+}
+
+#texto-digitado {
+  display: inline-block;
+}
+
+/* Quando JavaScript está ativo, aplicamos estilo específico para a animação de digitação */
+.js #texto-digitado {
+  display: inline-block;
+  min-height: 1.5em; /* Ajuste conforme necessário para evitar saltos no layout */
 }
 
 .experiencia {
@@ -249,12 +273,16 @@ body {
 }
 
 .titulo-experiencia {
+  opacity: 1; /* Garante visibilidade mesmo sem JS */
+}
+
+.js .titulo-experiencia {
   opacity: 0;
   transform: translateX(100px);
   transition: all 1.5s ease;
 }
 
-.titulo-experiencia .active {
+.js .titulo-experiencia.active {
   opacity: 1;
   transform: translateX(0);
 }
@@ -374,12 +402,16 @@ body {
 }
 
 .titulo-formacao {
+  opacity: 1; /* Garante visibilidade mesmo sem JS */
+}
+
+.js .titulo-formacao {
   opacity: 0;
   transform: translateX(100px);
   transition: all 1.5s ease;
 }
 
-.titulo-formacao .active {
+.js .titulo-formacao.active {
   opacity: 1;
   transform: translateX(0);
 }

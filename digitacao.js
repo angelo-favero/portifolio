@@ -1,6 +1,14 @@
+document.documentElement.classList.add("js");
+
 document.addEventListener("DOMContentLoaded", function () {
+  const textoElement = document.getElementById("texto-digitado");
+  // Salva o texto original para usar na animação
+  const textoOriginal = textoElement.textContent;
+  // Limpa o elemento para que o Typed.js possa preenchê-lo
+  textoElement.textContent = "";
+
   new Typed("#texto-digitado", {
-    strings: ["Desenvolvedor Front End UX/UI Designer"],
+    strings: [textoOriginal], // Usa o texto original que estava no HTML
     typeSpeed: 40,
     backSpeed: 30,
     backDelay: 1000,
@@ -11,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Esconde o cursor após um pequeno delay quando a digitação terminar
       setTimeout(function () {
         document.querySelector(".typed-cursor").style.opacity = "0";
-      }, 1000); // Espera 1.5 segundos antes de esconder o cursor
+      }, 1000); // Espera 1 segundo antes de esconder o cursor
     },
   });
 });

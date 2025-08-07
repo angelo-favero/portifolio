@@ -1,3 +1,4 @@
+document.documentElement.classList.add("js");
 document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver(
     (entries) => {
