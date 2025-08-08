@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   new Typed("#texto-digitado", {
     strings: [textoOriginal], // Usa o texto original que estava no HTML
-    typeSpeed: 40,
+    typeSpeed: 30,
     backSpeed: 30,
     backDelay: 1000,
     loop: false,
