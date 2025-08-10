@@ -100,7 +100,7 @@ body {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 40px 20px;
 }
 
 .menu {
@@ -115,6 +115,8 @@ body {
   font-weight: 600;
   font-size: 1.3rem;
   color: var(--cor-logo);
+  padding: 10px 0 10px 0;
+  display: block;
 }
 
 .logo {
