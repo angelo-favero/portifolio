@@ -731,7 +731,7 @@ footer {
   }
 
   .titulo-principal h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 0 20px 0 30px;
   }
 
@@ -748,7 +748,7 @@ footer {
     grid-template-columns: 1fr;
   }
   .titulo-experiencia h2 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding-left: 40px;
     max-width: 600px;
   }
@@ -780,7 +780,7 @@ footer {
     grid-column: 1;
   }
   .titulo-formacao h2 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding-left: 24px;
     max-width: 600px;
     opacity: 1;
