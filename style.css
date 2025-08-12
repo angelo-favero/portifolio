@@ -497,7 +497,7 @@ body {
   margin-top: 40px;
 }
 
-#idiomas {
+.cursos-completos h3 {
   color: var(--cor-meio-tranparente);
   font-family: "intro", sans-serif;
   font-size: 1.1704rem;
@@ -507,14 +507,24 @@ body {
   margin-bottom: 20px;
 }
 
-#portugues {
+.idiomas-completos h3 {
+  color: var(--cor-meio-tranparente);
+  font-family: "intro", sans-serif;
+  font-size: 1.1704rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 2px 0 10px 0;
+  margin-bottom: 20px;
+}
+
+.idiomas-completos p {
   font-family: "intro", sans-serif;
   font-size: 1.5048rem;
   color: white;
   padding-bottom: 20px;
 }
 
-#ingles {
+.cursos-completos p {
   font-family: "intro", sans-serif;
   font-size: 1.5048rem;
   color: white;
@@ -853,11 +863,11 @@ footer {
 }
 
 @media (max-width: 480px) {
-  #portugues {
+  .idiomas-completos p {
     font-size: 1.4rem;
     padding-right: 50px;
   }
-  #ingles {
+  .cursos-completos p {
     font-size: 1.4rem;
     padding-right: 50px;
   }
