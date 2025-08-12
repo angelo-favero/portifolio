@@ -570,6 +570,10 @@ footer {
   font-size: 1.5048rem;
 }
 
+.email p {
+  color: white;
+}
+
 .contato {
   display: grid;
   grid-template-columns: auto 1fr;
